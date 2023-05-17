@@ -5,10 +5,12 @@
     z-index: 1000;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 @media (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
     .nameSpan {
         max-width: 200px;
         margin: 20px;
@@ -28,6 +30,9 @@
     }
 }
 @media (min-width: 768px) {
+    .header {
+        justify-content: center;
+    }
     .nameSpan {
         max-width: 200px;
         margin: 20px;
@@ -51,7 +56,7 @@
 }
 
 .activeOpt {
-    background-color: cornflowerblue;
+    background-color: red;
 }
 
 .footer {
@@ -62,4 +67,5 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }

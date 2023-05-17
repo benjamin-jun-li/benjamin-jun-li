@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import IconButton from '@mui/material/IconButton';
@@ -10,8 +10,8 @@ import MenuItem from '@mui/material/MenuItem';
 import styles from './styles.module.css';
 
 const NavHead = () => {
-    const [activeButton, setActiveButton] = useState('');
-    const [menuShow, setMenuShow] = React.useState<null | HTMLElement>(null);
+    const router = useRouter();
+    const [menuShow, setMenuShow] = useState<null | HTMLElement>(null);
     const open = Boolean(menuShow);
     const handleIcon = (event: React.MouseEvent<HTMLButtonElement>) => {
         if (menuShow) {
@@ -20,15 +20,25 @@ const NavHead = () => {
             setMenuShow(event.currentTarget);
         }
     };
+
+    const handleNavigate = (event: React.MouseEvent<HTMLButtonElement>) => {
+        const id = event.currentTarget.id;
+        if (id !== 'home') {
+            router.push(`/${id}`);
+        } else {
+            router.push('/');
+        }
+
+    }
     return (
         <div className={styles.header}>
-            <span className={styles.nameSpan}>Benjamin Jun Li</span>
             <ButtonGroup className={styles.optionGroup} variant="text" aria-label="text button group">
-                <Button id='home' className={`${styles.option} ${activeButton === 'home' && styles.activeOpt}`}><Link href={'/'}>Home</Link></Button>
-                <Button id='about' className={`${styles.option} ${activeButton === 'about' && styles.activeOpt}`}><Link href={'/about'}>About</Link></Button>
-                <Button id='projects' className={`${styles.option} ${activeButton === 'projects' && styles.activeOpt}`}><Link href={'/projects'}>Projects</Link></Button>
+                <Button id='home' onClick={handleNavigate} className={styles.option}>Home</Button>
+                <Button id='about' onClick={handleNavigate} className={styles.option}>About</Button>
+                <Button id='projects' onClick={handleNavigate} className={styles.option}>Projects</Button>
             </ButtonGroup>
-            <IconButton className={styles.icon}
+            <IconButton id={'menu'}
+                        className={styles.icon}
                         aria-controls={open ? 'basic-menu' : undefined}
                         aria-haspopup="true"
                         aria-expanded={open ? 'true' : undefined}
@@ -41,12 +51,12 @@ const NavHead = () => {
                 open={open}
                 onClose={() => { setMenuShow(null) }}
                 MenuListProps={{
-                    'aria-labelledby': 'basic-button',
+                    'aria-labelledby': 'menu'
                 }}
             >
-                <MenuItem >Home</MenuItem>
-                <MenuItem >About</MenuItem>
-                <MenuItem >Projects</MenuItem>
+                <MenuItem onClick={() => router.push('/')} id='home'>Home</MenuItem>
+                <MenuItem onClick={(event) => router.push(`/${event.currentTarget.id}`)} id='about'>About</MenuItem>
+                <MenuItem onClick={(event) => router.push(`/${event.currentTarget.id}`)} id='projects'>Projects</MenuItem>
             </Menu>
         </div>
     )

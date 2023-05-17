@@ -1,6 +1,9 @@
+
 const Projects = () => {
     return (
-        <>this is for projects</>
+        <>
+            this is proj
+        </>
     )
 }
 

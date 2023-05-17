@@ -1,12 +1,16 @@
 import NavHead from '../components/nav-head';
-import NavFoot from '../components/nav-foot';
+import About from "@/app/about/page";
+import Projects from "@/app/projects/page";
 const Home = () => {
     return (
-        <main>
-            <NavHead></NavHead>
-            This is the main
-            <NavFoot></NavFoot>
-        </main>
+        <>
+            <main>
+                <NavHead />
+                This is the main
+                <About />
+                <Projects />
+            </main>
+        </>
     )
 }
 
