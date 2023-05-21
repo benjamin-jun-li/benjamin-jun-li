@@ -3,13 +3,11 @@ import Projects from "@/app/projects/page";
 import styles from './home.module.css';
 const Home = () => {
     return (
-        <div className={styles.content}>
-            <main>
-                This is the main
-                <About />
-                <Projects />
-            </main>
-        </div>
+        <main>
+            <div className={styles.content}>hi</div>
+            <About />
+            <Projects />
+        </main>
     )
 }
 
