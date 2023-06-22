@@ -12,6 +12,8 @@ export const metadata = {
   description: 'By next using typescript',
 }
 
+export const runtime = 'nodejs' // 'nodejs' (default) | 'edge'
+
 export default function RootLayout({
   children,
 }: {

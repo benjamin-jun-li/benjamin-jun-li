@@ -4,4 +4,6 @@
  * If an unsupported method is called, Next.js will return a 405 Method Not Allowed response.
  **/
 import { NextResponse } from 'next/server'
-export async function GET(request: Request) {}
+export async function GET(request: Request) {
+    return "hello";
+}
