@@ -1,5 +1,8 @@
-### Hi there 👋
-
+### Hi there 👋, I am Benjamin!
+### 🌱 I’m currently an IT student in UNSW.
+### 🔭 I am passionate with web development.
+### 👯 Looking forward to collaboration!
+### 📫 Here is my email: [benjaminli060@gmail.com](mailto:benjaminli060@gmail.com)
 <!--
 **benjamin-jun-li/benjamin-jun-li** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
