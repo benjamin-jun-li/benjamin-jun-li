@@ -1,6 +1,6 @@
 ### Hi there 👋, I am Benjamin!
-### 🌱 I’m currently an IT student in UNSW.
-### 🔭 I am passionate with web development.
+### 🌱 I recently graduated from UNSW.
+### 🔭 I am passionate with frontend development and building some fun stuff.
 ### 👯 Looking forward to collaboration!
 ### 📫 Here is my email: [benjaminli060@gmail.com](mailto:benjaminli060@gmail.com)
 <!--
