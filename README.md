@@ -6,7 +6,7 @@
 
 ### Hi there 👋, I am Benjamin!
 ### 🌱 I recently graduated from UNSW.
-### 🔭 I am passionate with frontend development and building some fun stuff.
+### 🔭 I am passionate with software development and building some fun stuff.
 ### 👯 Looking forward to collaboration!
 ### 📫 Here is my email: [benjaminli060@gmail.com](mailto:benjaminli060@gmail.com)
 
