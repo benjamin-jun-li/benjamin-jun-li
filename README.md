@@ -10,4 +10,4 @@
 ### 👯 Looking forward to collaboration and I am actively seeking for a developer role!
 ### 📫 Here is my email: [benjaminli060@gmail.com](mailto:benjaminli060@gmail.com)
 
-![benjamin's github activity graph](https://raw.githubusercontent.com/benjamin-jun-li/HuiDBK/output/github-contribution-grid-snake.svg)
+![benjamin's github activity graph](https://raw.githubusercontent.com/benjamin-jun-li/benjamin-jun-li/output/github-contribution-grid-snake.svg)
