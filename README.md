@@ -14,7 +14,7 @@
   
  <div style="display: flex; flex-direction: row; align-items: center;">
    <p>Feel free to reach me out!</p>
-   ![](https://komarev.com/ghpvc/?username=benjamin-jun-li&color=grey)
+   <div>![](https://komarev.com/ghpvc/?username=benjamin-jun-li&color=grey)</div>
  </div>
 
 
