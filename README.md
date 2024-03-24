@@ -12,10 +12,6 @@
   ### 👯 Looking forward to collaboration and I am actively seeking for a developer role!
   ### 📫 Here is my email: [benjaminli6@outlook.com](mailto:benjaminli6@outlook.com)
   
- <div style="display: flex; flex-direction: row; align-items: center;">
-   <p>Feel free to reach me out!</p>
-   <div>![](https://komarev.com/ghpvc/?username=benjamin-jun-li&color=grey)</div>
- </div>
 
 
   ![Top Langs](https://github-readme-stats-green-two-32.vercel.app/api/top-langs/?username=benjamin-jun-li&layout=compact&size_weight=0.5&count_weight=0.5&theme=dark&show_icons=true)
