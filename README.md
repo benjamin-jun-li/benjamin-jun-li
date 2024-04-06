@@ -15,12 +15,11 @@
 
 
   ![Top Langs](https://github-readme-stats-green-two-32.vercel.app/api/top-langs/?username=benjamin-jun-li&layout=compact&size_weight=0.5&count_weight=0.5&theme=dark&show_icons=true)
-  ![benjamin's github activity graph](https://raw.githubusercontent.com/benjamin-jun-li/benjamin-jun-li/output/github-contribution-grid-snake-dark.svg)
   
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/benjamin-jun-li/benjamin-jun-li/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/benjamin-jun-li/benjamin-jun-li/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/benjamin-jun-li/benjamin-jun-li/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/benjamin-jun-li/benjamin-jun-li/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="github-snake.svg" />
+  </picture>
 </div>
 
