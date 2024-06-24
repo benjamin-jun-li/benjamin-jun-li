@@ -9,7 +9,7 @@
 
   ### 🌱 I recently graduated from UNSW, I am based in Melbourne Australia.
   ### 🔭 I am passionate with software development and building some fun stuff.
-  ### 👯 Looking forward to collaboration and I am actively seeking for a developer role!
+  ### 👯 Looking forward to collaboration!
   ### 📫 Here is my email: [benjaminli6@outlook.com](mailto:benjaminli6@outlook.com)
   
 
